@@ -1,11 +1,13 @@
 /* Стилизация аккордеона */
 .accordion{
+    box-sizing: border-box;
+  }
+  .accordion *{
     font-family: Inter, sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 16px;
     line-height: 24px;
-    box-sizing: border-box;
   }
   .accordion__item{
       background: var(--white);
@@ -22,6 +24,7 @@
   }
   .accordion__summary{
       display: block;
+      outline: none;
       padding-top: 24px;
       padding-bottom: 24px;
       color: var(--black);
