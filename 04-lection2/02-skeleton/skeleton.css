@@ -1,9 +1,9 @@
 .skeleton{
     background: var(--white);
-    border: 1px solid #ACB5BD;
+    border: 1px solid var(--grey-3);
     box-sizing: border-box;
     border-radius: 8px;
-    width:50%;
+    
 }
 .skeleton__bottom{
    display: flex;
@@ -22,7 +22,7 @@
     padding-left: 24px;
 }
 
-.skeleton__wrapper-for-top-rectangles{
+.skeleton__top-rectangles{
     width:100%;
     padding-left: 16px;
     display: flex;
