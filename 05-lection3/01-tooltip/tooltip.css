@@ -1,9 +1,6 @@
 
-
-body{
-    padding-top: 100px;
-}
 .tooltip{
+    display: inline-block;
     font-family: Inter;
     font-size: 16px;
     font-style: normal;
@@ -16,6 +13,7 @@ body{
 }
 
 .tooltip__bubble{
+    white-space:nowrap;
     padding-left: 21px;
     padding-right: 21px;
     padding-top: 13px;
@@ -25,7 +23,7 @@ body{
     border-radius: 10px;
     display: none;
     position: absolute;
-    top:-300%;
+    bottom: 135%;
     left:50%;
     transform: translateX(-50%);
 
