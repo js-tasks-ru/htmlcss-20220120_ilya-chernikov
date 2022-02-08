@@ -59,5 +59,6 @@
 
 .modal__close:after {
     content: "\00d7"; 
+    /* comment  */
   }
   
