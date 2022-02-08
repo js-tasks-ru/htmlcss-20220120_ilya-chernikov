@@ -50,4 +50,5 @@
 
 .tooltip__icon:hover ~ .tooltip__bubble{
     display: inline-block;
+    /* comment */
 }
