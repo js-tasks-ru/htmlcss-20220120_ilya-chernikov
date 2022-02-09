@@ -3,6 +3,8 @@
 @import '../../components/footer/footer.css';
 @import '../../components/header/header.css';
 @import '../../components/container/container.css';
+@import '../../components/card/card.css';
+@import '../../components/preview/preview.css';
 
 :root {
     --white: #ffffff;
@@ -31,18 +33,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-main {
-    background-color: var(--black);
-    flex-grow: 1;
 
-}
 
 .page{
- display: flex;
- flex-direction: column;
- height:100%;
+    display: grid;
+    grid-template-rows: 237px 1fr 384px;
 }
 
 html, body{
 height: 100%;
 }
+
+
+
