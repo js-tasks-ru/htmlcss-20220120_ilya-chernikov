@@ -20,7 +20,11 @@ html {
  * Remove the margin in all browsers.
  */
 
+<<<<<<< HEAD
 body,p,h1 {
+=======
+body, h1 {
+>>>>>>> d9cb7716d9f1757708b7ac688e8554277d1d4795
   margin: 0;
 }
 
@@ -39,7 +43,7 @@ main {
 
 h1 {
   font-size: 2em;
-  margin: 0.67em 0;
+  /* margin: 0.67em 0; */
 }
 
 /* Grouping content
