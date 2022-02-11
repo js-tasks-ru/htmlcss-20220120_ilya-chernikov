@@ -20,12 +20,8 @@
     --grey-3: #ACB5BD;
     --grey-4: #495057;
     --grey-5: #F9FAFC;
-<<<<<<< HEAD
     --grey-6: #C4C4C4;
     --grey-7: #334D6E;
-=======
-    --grey-6:#90A0B7;
->>>>>>> d9cb7716d9f1757708b7ac688e8554277d1d4795
 
     --error: var(--red);
     --success: var(--blue);
