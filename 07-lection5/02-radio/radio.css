@@ -19,6 +19,7 @@
     color: var(--grey-2);
 }
 
+
 .radio__icon{
     position: relative;
     background: var(--white);
@@ -37,6 +38,7 @@
     content: "Default";
     align-self: center;
 }
+
 
 .radio__input{
     position: absolute;
