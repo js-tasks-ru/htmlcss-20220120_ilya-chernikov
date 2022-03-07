@@ -5,6 +5,8 @@
 @import '../../components/container/container.css';
 @import '../../components/card/card.css';
 @import '../../components/preview/preview.css';
+@import '../../components/calendar/calendar.css';
+
 
 :root {
     --white: #ffffff;
@@ -42,6 +44,10 @@ body {
 
 html, body{
 height: 100%;
+}
+
+main{
+    background-color: var(--grey-5);
 }
 
 
