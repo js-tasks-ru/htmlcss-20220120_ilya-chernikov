@@ -1,5 +1,6 @@
 .calendar{
     width: 100%;
+    max-height: 100%;
     max-width: 300px;
     padding-top: 28px;
     padding-left: 30px;

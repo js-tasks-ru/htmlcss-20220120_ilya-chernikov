@@ -3,7 +3,11 @@
 @import '../../components/footer/footer.css';
 @import '../../components/header/header.css';
 @import '../../components/container/container.css';
-@import '../../components/button/button.css';
+@import '../../components/card/card.css';
+@import '../../components/preview/preview.css';
+@import '../../components/calendar/calendar.css';
+@import '../../components/tooltip/tooltip.css';
+@import '../../components/avatar/avatar.css';
 
 
 :root {
@@ -35,18 +39,20 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-main {
-    background-color: var(--black);
-    flex-grow: 1;
 
-}
 
 .page{
- display: flex;
- flex-direction: column;
- height:100%;
+    display: grid;
+    grid-template-rows: 237px 1fr 384px;
 }
 
 html, body{
 height: 100%;
 }
+
+main{
+    background-color: var(--grey-5);
+}
+
+
+
