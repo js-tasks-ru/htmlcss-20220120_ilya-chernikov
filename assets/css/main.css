@@ -6,6 +6,8 @@
 @import '../../components/card/card.css';
 @import '../../components/preview/preview.css';
 @import '../../components/calendar/calendar.css';
+@import '../../components/tooltip/tooltip.css';
+@import '../../components/avatar/avatar.css';
 
 
 :root {

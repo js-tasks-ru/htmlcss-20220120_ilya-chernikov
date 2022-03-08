@@ -38,6 +38,9 @@
         width:202px;
         height: 215px;
         padding-top: 32px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
 
     }
 
